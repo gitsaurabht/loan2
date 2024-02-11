@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.contactform{
+    font-family: cursive;
+    padding: 0px 80px;
+    padding-top: 125px;
+   }
+   form{
+    margin-top: 150px;
+   }
+   .contactform h1{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       text-align: center;
+      
+   }
+   .contactform div{
+       display: flex;
+       flex-direction: column;
+       padding: 10px 0px;
+   }
+   .contactform div{
+       width: 16vw;
+   }
+   h1{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       text-align: center;
+       padding: 10px;
+       margin-left: -9px;
+       white-space: nowrap;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       
+      
+   }
+   
+   #emailHelp{
+       color: rgb(136 147 157);;
+       font-size: 15px;
+   }
+   #exampleCheck1{
+       margin-right: 250px;
+   }
+   .contactform div input{
+       font-size: 16px;
+       border-radius: 20px;
+       margin: 0px 6px;
+       padding: 6px 9px;
+   }
+   button.btn.btn-primary{
+       padding: 5px 10px;
+       border-radius: 10px;
+       background-color: antiquewhite;
+   }
+   button.btn.btn-primary:hover{
+       background-color: rgb(243, 210, 169);
+   }
+   
+   #exampleCheck1{
+    margin-left: 120px;
+}
+   
+   
+   
+     form{
+           margin-left: 18px;
+       }
+    .h1{
+           margin-left: -64px;
+       }
+   .form-check-label{
+           width: 250px;
+           margin-top: -19px;
+           }
+    .contactform div input {
+          width: 400px;
+       }
+    #emailHelp {
+           width: 400px;
+       }
